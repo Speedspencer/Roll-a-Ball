@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float rotationSpeed = 5f;
-    public Vector3 startingPosition = new Vector3(0f, 0.5f, 0f);
+    public Vector3 startingPosition;
 
     private Rigidbody rb;
     public Transform cameraTransform;
